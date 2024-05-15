@@ -19,5 +19,6 @@ QVariantMap generateMatrixTask();
 #include <QString>
 
 QVariantMap generateMatrixTask();
+QString matrixToString(const std::vector<std::vector<int>>& matrix);
 
 #endif //TASKS_H

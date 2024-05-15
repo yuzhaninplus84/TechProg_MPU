@@ -1,0 +1,10 @@
+debug/database.o
+debug/main.o
+debug/mytcpserver.o
+debug/serverfunction.o
+debug/task1.o
+debug/task2.o
+debug/task3.o
+debug/task4.o
+debug/tasks.o
+debug/moc_mytcpserver.o
