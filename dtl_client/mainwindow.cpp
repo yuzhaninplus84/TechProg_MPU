@@ -43,6 +43,12 @@ void MainWindow::on_task2_clicked()
     openTask(task);
 }
 
+void MainWindow::on_task3_clicked()
+{
+    QVariantMap task = getTask(3);
+    openTask(task);
+}
+
 void MainWindow::on_stat_clicked(){
     statWindow->UpdateWindow();
     statWindow->show();

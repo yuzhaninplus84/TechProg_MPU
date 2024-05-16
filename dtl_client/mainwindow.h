@@ -41,6 +41,7 @@ signals:
 private slots:
     void on_task1_clicked();
     void on_task2_clicked();
+    void on_task3_clicked();
     void on_stat_clicked();
     void on_account_exit_triggered();
     /*!

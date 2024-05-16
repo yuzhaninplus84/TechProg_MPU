@@ -506,6 +506,13 @@
        </widget>
       </item>
       <item>
+       <widget class="QPushButton" name="task3">
+        <property name="text">
+         <string>Task 3: Шифр Виженера</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QPushButton" name="stat">
         <property name="text">
          <string>Statistic</string>

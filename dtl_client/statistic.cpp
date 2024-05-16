@@ -5,9 +5,10 @@ StatWindow::StatWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::StatWin
     QStringList header;
     header << QString("Login")
            << QString("Correct answers: Task 1")
-           << QString("Correct answers: Task 2");
+           << QString("Correct answers: Task 2")
+           << QString("Correct answers: Task 3");
     ui->setupUi(this);
-    ui->tableWidget->setColumnCount(3);
+    ui->tableWidget->setColumnCount(4);
     ui->tableWidget->setSelectionMode(QAbstractItemView::SingleSelection);
     ui->tableWidget->setSelectionBehavior(QAbstractItemView::SelectRows);
     ui->tableWidget->setHorizontalHeaderLabels(header);
